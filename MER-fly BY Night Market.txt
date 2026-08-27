@@ -1,0 +1,39 @@
+MER - Fly By Night
+
+ENTIDADES
+
+-FORNECEDOR
+identificador
+nome do fornecedor
+
+-PRODUTO
+identificador
+nome do produto
+descrição
+preço
+quantidade
+
+-LOJA
+identificador
+nome
+
+
+
+
+
+
+
+
+
+Relacionamento 
+
+FORNECEDOR fornece PRODUTO (1:N)
+Um fornecedor pode fornecer MUITOS produtos.
+Um produto é fornecido por um FORNECEDOR.
+
+
+LOJA vende PRODUTO
+Uma loja pode vender MUITOS produtos.
+Um produto pode ser vendidos por MUITAS lojas.
+
+		
